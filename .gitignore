@@ -1,0 +1,39 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment folders
+env/
+venv/
+*.venv
+*.env
+*.local
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Django secret files
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Virtual Environment Files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore GitHub Actions Workflows (if not needed)
+.github/
+
+# Ignore Migrations (optional, useful for fresh deployments)
+**/migrations/*.py
+!**/migrations/__init__.py
